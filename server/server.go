@@ -6,7 +6,7 @@ import (
 	"strings"
 	"os"
 )
-
+//
 func main() {
 	fmt.Println("vim-go")
 
