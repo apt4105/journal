@@ -1,16 +1,6 @@
 # journal
-an online journal
 
-# GET /asset/:user/:path
+an online location journal
 
-if `:path` points to a file, write the file as a response
-if `:path` points to a directory, return a JSON array of strings
-
-
-`:path` points to a directory iff it ends with a `/`
-
-# PUT /asset/:user/:path
-
-write the request's body to `:path` in the user's directory
-
-
+**note** this depends on a [patched version of tegola](https://github.com/apt4105/tegola/tree/sdhacks)
+that adds geometry import functionality.
